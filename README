@@ -1,0 +1,17 @@
+This program tries to make Palindromes out of strings using insertion.
+Main Class has a driver method main() and two other methods for processing strings.
+
+Inside Main() function:
+Takes a string from user.
+A check is performed to see if its already a palindrome using method checkPalindrome().
+If its not then method convertToPalindrome() is called.
+Prints the result.
+
+Inside checkPalindrome():
+Takes in a String as a parameter.
+returns true if its already a Palindrome.
+
+Inside convertToPalindrome()
+Takes in the string as a parameter.
+Determines how many insertions to make it Palindromic.
+Then makes that change and returns a char[].
